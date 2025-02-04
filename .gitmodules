@@ -1,0 +1,6 @@
+[submodule "xll24"]
+	path = xll24
+	url = https://github.com/xlladdins/xll24
+[submodule "fms_parse"]
+	path = fms_parse
+	url = https://github.com/keithalewis/fms_parse.git
