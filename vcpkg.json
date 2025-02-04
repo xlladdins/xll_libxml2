@@ -1,0 +1,7 @@
+{
+  "name": "libxml",
+  "version": "0.0",
+  "dependencies": [
+    "libxml2"
+  ]
+}

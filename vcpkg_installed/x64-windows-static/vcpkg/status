@@ -1,0 +1,76 @@
+Package: vcpkg-cmake
+Version: 2024-04-23
+Architecture: x64-windows-static-md
+Multi-Arch: same
+Abi: 3dca9ce7e0691fb1c0a4cbc0bb5e864f54daa26e49dfdd103e93b70dcdf0cd77
+Status: install ok installed
+
+Package: zlib
+Version: 1.3.1
+Depends: vcpkg-cmake:x64-windows-static-md
+Architecture: x64-windows-static
+Multi-Arch: same
+Abi: 9c5a337158d8da9e9457f4ed8884fe06bf3ecf2e74790866f62c4ab80d402c41
+Description: A compression library
+Status: install ok installed
+
+Package: vcpkg-cmake-config
+Version: 2024-05-23
+Architecture: x64-windows-static-md
+Multi-Arch: same
+Abi: 69a4a0a8b8372c5c378d1de2d247482a86b4eb6de46698a0166e8a06849783ff
+Status: install ok installed
+
+Package: liblzma
+Version: 5.6.3
+Depends: vcpkg-cmake:x64-windows-static-md, vcpkg-cmake-config:x64-windows-static-md
+Architecture: x64-windows-static
+Multi-Arch: same
+Abi: 3568d9b7d7edcf3748ae2abc836a02f4caaa40518f791c3be85ed839aafbda40
+Description: Compression library with an API similar to that of zlib.
+Status: install ok installed
+
+Package: libiconv
+Version: 1.17
+Port-Version: 5
+Architecture: x64-windows-static
+Multi-Arch: same
+Abi: 816bd48486cbd61eddb62a19ea8ec8d7315dc9c951a55c3cc0f47cf8160196a1
+Description: GNU Unicode text conversion
+Status: install ok installed
+
+Package: libxml2
+Version: 2.13.5
+Port-Version: 1
+Depends: vcpkg-cmake:x64-windows-static-md, vcpkg-cmake-config:x64-windows-static-md
+Architecture: x64-windows-static
+Multi-Arch: same
+Abi: 5c125fd22caa22347bcb4e981640ad7f1ec9cda012dd0ef3331c2dffc53f1c7b
+Description: Libxml2 is the XML C parser and toolkit developed for the Gnome project (but usable outside of the Gnome platform).
+Default-Features: iconv, lzma, zlib
+Status: install ok installed
+
+Package: libxml2
+Feature: iconv
+Depends: libiconv
+Architecture: x64-windows-static
+Multi-Arch: same
+Description: Add ICONV support
+Status: install ok installed
+
+Package: libxml2
+Feature: lzma
+Depends: liblzma
+Architecture: x64-windows-static
+Multi-Arch: same
+Description: Use LZMA
+Status: install ok installed
+
+Package: libxml2
+Feature: zlib
+Depends: zlib
+Architecture: x64-windows-static
+Multi-Arch: same
+Description: Use ZLib
+Status: install ok installed
+
