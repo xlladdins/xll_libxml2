@@ -361,3 +361,5 @@ MigrationBackup/
 
 # Fody - auto-generated XML schema
 FodyWeavers.xsd
+/vcpkg_installed/arm64-windows-static/.msbuildstamp-arm64-windows-static.x64-windows-static-md.stamp
+/vcpkg_installed/x64-windows/.msbuildstamp-x64-windows.stamp
