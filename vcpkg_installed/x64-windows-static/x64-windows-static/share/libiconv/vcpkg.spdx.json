@@ -3,13 +3,13 @@
   "spdxVersion": "SPDX-2.2",
   "dataLicense": "CC0-1.0",
   "SPDXID": "SPDXRef-DOCUMENT",
-  "documentNamespace": "https://spdx.org/spdxdocs/libiconv-x64-windows-static-1.17#5-4aea46f2---8c9b-dfb29fffbe79",
-  "name": "libiconv:x64-windows-static@1.17#5 816bd48486cbd61eddb62a19ea8ec8d7315dc9c951a55c3cc0f47cf8160196a1",
+  "documentNamespace": "https://spdx.org/spdxdocs/libiconv-x64-windows-static-1.17#5-a29dfa4a---b558-0ad3c7bc2782",
+  "name": "libiconv:x64-windows-static@1.17#5 ce37607b0c81d90dcda6cd52053b7c0494f1d411bdfbc976a10db740b4252214",
   "creationInfo": {
     "creators": [
       "Tool: vcpkg-2025-01-24-874e302b1fa28cc81caefbb1483f80103c51ab52"
     ],
-    "created": "2025-02-04T02:08:08Z"
+    "created": "2025-02-12T09:01:48Z"
   },
   "relationships": [
     {
@@ -129,7 +129,7 @@
     {
       "name": "libiconv:x64-windows-static",
       "SPDXID": "SPDXRef-binary",
-      "versionInfo": "816bd48486cbd61eddb62a19ea8ec8d7315dc9c951a55c3cc0f47cf8160196a1",
+      "versionInfo": "ce37607b0c81d90dcda6cd52053b7c0494f1d411bdfbc976a10db740b4252214",
       "downloadLocation": "NONE",
       "licenseConcluded": "NOASSERTION",
       "licenseDeclared": "NOASSERTION",

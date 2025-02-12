@@ -2,7 +2,7 @@ Package: vcpkg-cmake
 Version: 2024-04-23
 Architecture: x64-windows-static-md
 Multi-Arch: same
-Abi: 3dca9ce7e0691fb1c0a4cbc0bb5e864f54daa26e49dfdd103e93b70dcdf0cd77
+Abi: 36660c81725437bcb2e2a072c4fa41b080ead5b893ef425bd29a94b5a02c5a8c
 Status: install ok installed
 
 Package: zlib
@@ -10,7 +10,7 @@ Version: 1.3.1
 Depends: vcpkg-cmake:x64-windows-static-md
 Architecture: x64-windows-static
 Multi-Arch: same
-Abi: 9c5a337158d8da9e9457f4ed8884fe06bf3ecf2e74790866f62c4ab80d402c41
+Abi: 72bf8caa918710af7abe2a495105e4e933700a2302f6781d0e8f8e0449b0ed95
 Description: A compression library
 Status: install ok installed
 
@@ -18,7 +18,7 @@ Package: vcpkg-cmake-config
 Version: 2024-05-23
 Architecture: x64-windows-static-md
 Multi-Arch: same
-Abi: 69a4a0a8b8372c5c378d1de2d247482a86b4eb6de46698a0166e8a06849783ff
+Abi: 014f53217712500539899d2bad7b49db572e6144affdf66c62217dd57a017598
 Status: install ok installed
 
 Package: liblzma
@@ -26,7 +26,7 @@ Version: 5.6.3
 Depends: vcpkg-cmake:x64-windows-static-md, vcpkg-cmake-config:x64-windows-static-md
 Architecture: x64-windows-static
 Multi-Arch: same
-Abi: 3568d9b7d7edcf3748ae2abc836a02f4caaa40518f791c3be85ed839aafbda40
+Abi: 956346bf10eef360d3f7e4d1278d587d08ae70b067fb7b17238455dd7c64a42c
 Description: Compression library with an API similar to that of zlib.
 Status: install ok installed
 
@@ -35,7 +35,7 @@ Version: 1.17
 Port-Version: 5
 Architecture: x64-windows-static
 Multi-Arch: same
-Abi: 816bd48486cbd61eddb62a19ea8ec8d7315dc9c951a55c3cc0f47cf8160196a1
+Abi: ce37607b0c81d90dcda6cd52053b7c0494f1d411bdfbc976a10db740b4252214
 Description: GNU Unicode text conversion
 Status: install ok installed
 
@@ -45,7 +45,7 @@ Port-Version: 1
 Depends: vcpkg-cmake:x64-windows-static-md, vcpkg-cmake-config:x64-windows-static-md
 Architecture: x64-windows-static
 Multi-Arch: same
-Abi: 5c125fd22caa22347bcb4e981640ad7f1ec9cda012dd0ef3331c2dffc53f1c7b
+Abi: 105514583974439a4617cf3766717a6e0c09e13572fedb13eb31f518a077c5f6
 Description: Libxml2 is the XML C parser and toolkit developed for the Gnome project (but usable outside of the Gnome platform).
 Default-Features: iconv, lzma, zlib
 Status: install ok installed
@@ -72,5 +72,12 @@ Depends: zlib
 Architecture: x64-windows-static
 Multi-Arch: same
 Description: Use ZLib
+Status: install ok installed
+
+Package: libxml2
+Feature: http
+Architecture: x64-windows-static
+Multi-Arch: same
+Description: Add the HTTP support
 Status: install ok installed
 

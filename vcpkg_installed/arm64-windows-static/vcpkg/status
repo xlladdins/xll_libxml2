@@ -1,0 +1,76 @@
+Package: vcpkg-cmake
+Version: 2024-04-23
+Architecture: x64-windows-static-md
+Multi-Arch: same
+Abi: 3dca9ce7e0691fb1c0a4cbc0bb5e864f54daa26e49dfdd103e93b70dcdf0cd77
+Status: install ok installed
+
+Package: zlib
+Version: 1.3.1
+Depends: vcpkg-cmake:x64-windows-static-md
+Architecture: arm64-windows-static
+Multi-Arch: same
+Abi: 8e964eb9e8d8c18dbbed4d1d627ac5d04b1a8a283ec9edb18096ce19bf51d8cc
+Description: A compression library
+Status: install ok installed
+
+Package: vcpkg-cmake-config
+Version: 2024-05-23
+Architecture: x64-windows-static-md
+Multi-Arch: same
+Abi: 69a4a0a8b8372c5c378d1de2d247482a86b4eb6de46698a0166e8a06849783ff
+Status: install ok installed
+
+Package: liblzma
+Version: 5.6.3
+Depends: vcpkg-cmake:x64-windows-static-md, vcpkg-cmake-config:x64-windows-static-md
+Architecture: arm64-windows-static
+Multi-Arch: same
+Abi: 5f33e8bb9ace12ab2d8ef6b2bf45c9c9715deb21aef7a87a455d65a7ce3f9de1
+Description: Compression library with an API similar to that of zlib.
+Status: install ok installed
+
+Package: libiconv
+Version: 1.17
+Port-Version: 5
+Architecture: arm64-windows-static
+Multi-Arch: same
+Abi: 040c1adce86bde7e78c0cdca351b73f4e9d8242a60ce77cae44cf26f05bd3c36
+Description: GNU Unicode text conversion
+Status: install ok installed
+
+Package: libxml2
+Version: 2.13.5
+Port-Version: 1
+Depends: vcpkg-cmake:x64-windows-static-md, vcpkg-cmake-config:x64-windows-static-md
+Architecture: arm64-windows-static
+Multi-Arch: same
+Abi: 9db026758788bf44daa343f36d0cd542f10de21c1cbb523f757cabff951b7a76
+Description: Libxml2 is the XML C parser and toolkit developed for the Gnome project (but usable outside of the Gnome platform).
+Default-Features: iconv, lzma, zlib
+Status: install ok installed
+
+Package: libxml2
+Feature: iconv
+Depends: libiconv
+Architecture: arm64-windows-static
+Multi-Arch: same
+Description: Add ICONV support
+Status: install ok installed
+
+Package: libxml2
+Feature: lzma
+Depends: liblzma
+Architecture: arm64-windows-static
+Multi-Arch: same
+Description: Use LZMA
+Status: install ok installed
+
+Package: libxml2
+Feature: zlib
+Depends: zlib
+Architecture: arm64-windows-static
+Multi-Arch: same
+Description: Use ZLib
+Status: install ok installed
+
