@@ -28,7 +28,6 @@ namespace nano {
 			: ctx(nullptr), contentType(nullptr)
 		{
 			ctx = xmlNanoHTTPOpen(url, &contentType);
-			//xmlNanoHTTPFetchContent(ctx);
 		}
 		http(const http&) = delete;
 		http& operator=(const http&) = delete;
@@ -41,10 +40,20 @@ namespace nano {
 				xmlNanoHTTPClose(ctx);
 			}
 		}
-		int FetchContent()
+	
+		int Read(void* buf, int len)
 		{
-			return 0;// xmlNanoHTTPFetchContent(ctx, 0, 0);
+			return xmlNanoHTTPRead(ctx, buf, len);
 		}
 	};
 	
 } // namespace nano
+
+auto xxx = []() {
+	static nano::http h("https://google.com");
+	char buf[10];
+	h.Read(buf, 10);
+	h.Read(buf, 10);
+
+	return 0;
+	}();
