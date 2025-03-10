@@ -3,13 +3,13 @@
   "spdxVersion": "SPDX-2.2",
   "dataLicense": "CC0-1.0",
   "SPDXID": "SPDXRef-DOCUMENT",
-  "documentNamespace": "https://spdx.org/spdxdocs/libxml2-x64-windows-static-2.13.5#1-75757e95---8f89-689bde535ac8",
-  "name": "libxml2:x64-windows-static@2.13.5#1 105514583974439a4617cf3766717a6e0c09e13572fedb13eb31f518a077c5f6",
+  "documentNamespace": "https://spdx.org/spdxdocs/libxml2-x64-windows-static-2.13.5#1-523bafcf-dd01-4821-8933-3369bf138419",
+  "name": "libxml2:x64-windows-static@2.13.5#1 5ff667dfee3df429ea194ea6fee72cd328f1f73f365417d5fdff414e0e4ecbaf",
   "creationInfo": {
     "creators": [
-      "Tool: vcpkg-2025-01-24-874e302b1fa28cc81caefbb1483f80103c51ab52"
+      "Tool: vcpkg-2025-02-11-bec4296bf5289dc9ce83b4f5095943e44162f9c2"
     ],
-    "created": "2025-02-12T09:01:56Z"
+    "created": "2025-03-10T23:07:54Z"
   },
   "relationships": [
     {
@@ -98,7 +98,7 @@
       "name": "libxml2",
       "SPDXID": "SPDXRef-port",
       "versionInfo": "2.13.5#1",
-      "downloadLocation": "NOASSERTION",
+      "downloadLocation": "git+https://github.com/microsoft/vcpkg@42ed1437607b934471807d0a2830d23d43f22bb1",
       "homepage": "https://gitlab.gnome.org/GNOME/libxml2/-/wikis/home",
       "licenseConcluded": "MIT",
       "licenseDeclared": "NOASSERTION",
@@ -109,7 +109,7 @@
     {
       "name": "libxml2:x64-windows-static",
       "SPDXID": "SPDXRef-binary",
-      "versionInfo": "105514583974439a4617cf3766717a6e0c09e13572fedb13eb31f518a077c5f6",
+      "versionInfo": "5ff667dfee3df429ea194ea6fee72cd328f1f73f365417d5fdff414e0e4ecbaf",
       "downloadLocation": "NONE",
       "licenseConcluded": "MIT",
       "licenseDeclared": "NOASSERTION",
@@ -163,7 +163,7 @@
   ],
   "files": [
     {
-      "fileName": "./C:/Users/keith/source/repos/vcpkg/ports/libxml2/disable-docs.patch",
+      "fileName": "./C:/Users/kal/AppData/Local/vcpkg/registries/git-trees/42ed1437607b934471807d0a2830d23d43f22bb1/disable-docs.patch",
       "SPDXID": "SPDXRef-file-0",
       "checksums": [
         {
@@ -175,7 +175,7 @@
       "copyrightText": "NOASSERTION"
     },
     {
-      "fileName": "./C:/Users/keith/source/repos/vcpkg/ports/libxml2/fix_cmakelist.patch",
+      "fileName": "./C:/Users/kal/AppData/Local/vcpkg/registries/git-trees/42ed1437607b934471807d0a2830d23d43f22bb1/fix_cmakelist.patch",
       "SPDXID": "SPDXRef-file-1",
       "checksums": [
         {
@@ -187,7 +187,7 @@
       "copyrightText": "NOASSERTION"
     },
     {
-      "fileName": "./C:/Users/keith/source/repos/vcpkg/ports/libxml2/fix_ios_compilation.patch",
+      "fileName": "./C:/Users/kal/AppData/Local/vcpkg/registries/git-trees/42ed1437607b934471807d0a2830d23d43f22bb1/fix_ios_compilation.patch",
       "SPDXID": "SPDXRef-file-2",
       "checksums": [
         {
@@ -199,7 +199,7 @@
       "copyrightText": "NOASSERTION"
     },
     {
-      "fileName": "./C:/Users/keith/source/repos/vcpkg/ports/libxml2/portfile.cmake",
+      "fileName": "./C:/Users/kal/AppData/Local/vcpkg/registries/git-trees/42ed1437607b934471807d0a2830d23d43f22bb1/portfile.cmake",
       "SPDXID": "SPDXRef-file-3",
       "checksums": [
         {
@@ -211,7 +211,7 @@
       "copyrightText": "NOASSERTION"
     },
     {
-      "fileName": "./C:/Users/keith/source/repos/vcpkg/ports/libxml2/usage",
+      "fileName": "./C:/Users/kal/AppData/Local/vcpkg/registries/git-trees/42ed1437607b934471807d0a2830d23d43f22bb1/usage",
       "SPDXID": "SPDXRef-file-4",
       "checksums": [
         {
@@ -223,7 +223,7 @@
       "copyrightText": "NOASSERTION"
     },
     {
-      "fileName": "./C:/Users/keith/source/repos/vcpkg/ports/libxml2/vcpkg-cmake-wrapper.cmake",
+      "fileName": "./C:/Users/kal/AppData/Local/vcpkg/registries/git-trees/42ed1437607b934471807d0a2830d23d43f22bb1/vcpkg-cmake-wrapper.cmake",
       "SPDXID": "SPDXRef-file-5",
       "checksums": [
         {
@@ -235,7 +235,7 @@
       "copyrightText": "NOASSERTION"
     },
     {
-      "fileName": "./C:/Users/keith/source/repos/vcpkg/ports/libxml2/vcpkg.json",
+      "fileName": "./C:/Users/kal/AppData/Local/vcpkg/registries/git-trees/42ed1437607b934471807d0a2830d23d43f22bb1/vcpkg.json",
       "SPDXID": "SPDXRef-file-6",
       "checksums": [
         {

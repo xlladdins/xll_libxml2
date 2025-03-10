@@ -3,13 +3,13 @@
   "spdxVersion": "SPDX-2.2",
   "dataLicense": "CC0-1.0",
   "SPDXID": "SPDXRef-DOCUMENT",
-  "documentNamespace": "https://spdx.org/spdxdocs/liblzma-x64-windows-static-5.6.3-f042937f---80bf-11cc90f4027a",
-  "name": "liblzma:x64-windows-static@5.6.3 956346bf10eef360d3f7e4d1278d587d08ae70b067fb7b17238455dd7c64a42c",
+  "documentNamespace": "https://spdx.org/spdxdocs/liblzma-x64-windows-static-5.6.3-ec5cc0f8-5f59-4f34-b302-758242831627",
+  "name": "liblzma:x64-windows-static@5.6.3 567997a5c874109637186664a482332963a6870e2be4b9189fe92f3b0d01526b",
   "creationInfo": {
     "creators": [
-      "Tool: vcpkg-2025-01-24-874e302b1fa28cc81caefbb1483f80103c51ab52"
+      "Tool: vcpkg-2025-02-11-bec4296bf5289dc9ce83b4f5095943e44162f9c2"
     ],
-    "created": "2025-02-12T08:55:52Z"
+    "created": "2025-03-10T23:01:24Z"
   },
   "relationships": [
     {
@@ -78,7 +78,7 @@
       "name": "liblzma",
       "SPDXID": "SPDXRef-port",
       "versionInfo": "5.6.3",
-      "downloadLocation": "NOASSERTION",
+      "downloadLocation": "git+https://github.com/microsoft/vcpkg@b5e5694620b41a4d668390e5d14fa2326e0afdc3",
       "homepage": "https://tukaani.org/xz/",
       "licenseConcluded": "NOASSERTION",
       "licenseDeclared": "NOASSERTION",
@@ -89,7 +89,7 @@
     {
       "name": "liblzma:x64-windows-static",
       "SPDXID": "SPDXRef-binary",
-      "versionInfo": "956346bf10eef360d3f7e4d1278d587d08ae70b067fb7b17238455dd7c64a42c",
+      "versionInfo": "567997a5c874109637186664a482332963a6870e2be4b9189fe92f3b0d01526b",
       "downloadLocation": "NONE",
       "licenseConcluded": "NOASSERTION",
       "licenseDeclared": "NOASSERTION",
@@ -113,7 +113,7 @@
   ],
   "files": [
     {
-      "fileName": "./C:/Users/keith/source/repos/vcpkg/ports/liblzma/build-tools.patch",
+      "fileName": "./C:/Users/kal/AppData/Local/vcpkg/registries/git-trees/b5e5694620b41a4d668390e5d14fa2326e0afdc3/build-tools.patch",
       "SPDXID": "SPDXRef-file-0",
       "checksums": [
         {
@@ -125,7 +125,7 @@
       "copyrightText": "NOASSERTION"
     },
     {
-      "fileName": "./C:/Users/keith/source/repos/vcpkg/ports/liblzma/portfile.cmake",
+      "fileName": "./C:/Users/kal/AppData/Local/vcpkg/registries/git-trees/b5e5694620b41a4d668390e5d14fa2326e0afdc3/portfile.cmake",
       "SPDXID": "SPDXRef-file-1",
       "checksums": [
         {
@@ -137,7 +137,7 @@
       "copyrightText": "NOASSERTION"
     },
     {
-      "fileName": "./C:/Users/keith/source/repos/vcpkg/ports/liblzma/usage",
+      "fileName": "./C:/Users/kal/AppData/Local/vcpkg/registries/git-trees/b5e5694620b41a4d668390e5d14fa2326e0afdc3/usage",
       "SPDXID": "SPDXRef-file-2",
       "checksums": [
         {
@@ -149,7 +149,7 @@
       "copyrightText": "NOASSERTION"
     },
     {
-      "fileName": "./C:/Users/keith/source/repos/vcpkg/ports/liblzma/vcpkg-cmake-wrapper.cmake",
+      "fileName": "./C:/Users/kal/AppData/Local/vcpkg/registries/git-trees/b5e5694620b41a4d668390e5d14fa2326e0afdc3/vcpkg-cmake-wrapper.cmake",
       "SPDXID": "SPDXRef-file-3",
       "checksums": [
         {
@@ -161,7 +161,7 @@
       "copyrightText": "NOASSERTION"
     },
     {
-      "fileName": "./C:/Users/keith/source/repos/vcpkg/ports/liblzma/vcpkg.json",
+      "fileName": "./C:/Users/kal/AppData/Local/vcpkg/registries/git-trees/b5e5694620b41a4d668390e5d14fa2326e0afdc3/vcpkg.json",
       "SPDXID": "SPDXRef-file-4",
       "checksums": [
         {

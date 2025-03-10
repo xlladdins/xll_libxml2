@@ -2,7 +2,7 @@ Package: vcpkg-cmake
 Version: 2024-04-23
 Architecture: x64-windows-static-md
 Multi-Arch: same
-Abi: 36660c81725437bcb2e2a072c4fa41b080ead5b893ef425bd29a94b5a02c5a8c
+Abi: bb6f83df26d4c8880266cf90cc0307c89f81e3299f6f1e12f363291bfaad4491
 Status: install ok installed
 
 Package: zlib
@@ -10,7 +10,7 @@ Version: 1.3.1
 Depends: vcpkg-cmake:x64-windows-static-md
 Architecture: x64-windows-static
 Multi-Arch: same
-Abi: 72bf8caa918710af7abe2a495105e4e933700a2302f6781d0e8f8e0449b0ed95
+Abi: f6002212e8dc707101f37b9d98202831026edff82aa2729178bfaad2975d4722
 Description: A compression library
 Status: install ok installed
 
@@ -18,7 +18,7 @@ Package: vcpkg-cmake-config
 Version: 2024-05-23
 Architecture: x64-windows-static-md
 Multi-Arch: same
-Abi: 014f53217712500539899d2bad7b49db572e6144affdf66c62217dd57a017598
+Abi: 7547161ace4886bf25776d74f2f568184c3edb9149524b3b2a802f7b7a75fd24
 Status: install ok installed
 
 Package: liblzma
@@ -26,16 +26,15 @@ Version: 5.6.3
 Depends: vcpkg-cmake:x64-windows-static-md, vcpkg-cmake-config:x64-windows-static-md
 Architecture: x64-windows-static
 Multi-Arch: same
-Abi: 956346bf10eef360d3f7e4d1278d587d08ae70b067fb7b17238455dd7c64a42c
+Abi: 567997a5c874109637186664a482332963a6870e2be4b9189fe92f3b0d01526b
 Description: Compression library with an API similar to that of zlib.
 Status: install ok installed
 
 Package: libiconv
-Version: 1.17
-Port-Version: 5
+Version: 1.18
 Architecture: x64-windows-static
 Multi-Arch: same
-Abi: ce37607b0c81d90dcda6cd52053b7c0494f1d411bdfbc976a10db740b4252214
+Abi: a8ed609bf9eec8ab6aea35c0edbacf714c25f16040d4bd60dd3a35c4da18b54c
 Description: GNU Unicode text conversion
 Status: install ok installed
 
@@ -45,7 +44,7 @@ Port-Version: 1
 Depends: vcpkg-cmake:x64-windows-static-md, vcpkg-cmake-config:x64-windows-static-md
 Architecture: x64-windows-static
 Multi-Arch: same
-Abi: 105514583974439a4617cf3766717a6e0c09e13572fedb13eb31f518a077c5f6
+Abi: 5ff667dfee3df429ea194ea6fee72cd328f1f73f365417d5fdff414e0e4ecbaf
 Description: Libxml2 is the XML C parser and toolkit developed for the Gnome project (but usable outside of the Gnome platform).
 Default-Features: iconv, lzma, zlib
 Status: install ok installed

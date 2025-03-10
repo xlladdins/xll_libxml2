@@ -3,13 +3,13 @@
   "spdxVersion": "SPDX-2.2",
   "dataLicense": "CC0-1.0",
   "SPDXID": "SPDXRef-DOCUMENT",
-  "documentNamespace": "https://spdx.org/spdxdocs/libiconv-x64-windows-static-1.17#5-a29dfa4a---b558-0ad3c7bc2782",
-  "name": "libiconv:x64-windows-static@1.17#5 ce37607b0c81d90dcda6cd52053b7c0494f1d411bdfbc976a10db740b4252214",
+  "documentNamespace": "https://spdx.org/spdxdocs/libiconv-x64-windows-static-1.18-3196ae88-c2ea-4c71-876f-64260390540a",
+  "name": "libiconv:x64-windows-static@1.18 a8ed609bf9eec8ab6aea35c0edbacf714c25f16040d4bd60dd3a35c4da18b54c",
   "creationInfo": {
     "creators": [
-      "Tool: vcpkg-2025-01-24-874e302b1fa28cc81caefbb1483f80103c51ab52"
+      "Tool: vcpkg-2025-02-11-bec4296bf5289dc9ce83b4f5095943e44162f9c2"
     ],
-    "created": "2025-02-12T09:01:48Z"
+    "created": "2025-03-10T23:06:12Z"
   },
   "relationships": [
     {
@@ -53,16 +53,6 @@
       "relatedSpdxElement": "SPDXRef-file-6"
     },
     {
-      "spdxElementId": "SPDXRef-port",
-      "relationshipType": "CONTAINS",
-      "relatedSpdxElement": "SPDXRef-file-7"
-    },
-    {
-      "spdxElementId": "SPDXRef-port",
-      "relationshipType": "CONTAINS",
-      "relatedSpdxElement": "SPDXRef-file-8"
-    },
-    {
       "spdxElementId": "SPDXRef-binary",
       "relationshipType": "GENERATED_FROM",
       "relatedSpdxElement": "SPDXRef-port"
@@ -101,24 +91,14 @@
       "spdxElementId": "SPDXRef-file-6",
       "relationshipType": "CONTAINED_BY",
       "relatedSpdxElement": "SPDXRef-port"
-    },
-    {
-      "spdxElementId": "SPDXRef-file-7",
-      "relationshipType": "CONTAINED_BY",
-      "relatedSpdxElement": "SPDXRef-port"
-    },
-    {
-      "spdxElementId": "SPDXRef-file-8",
-      "relationshipType": "CONTAINED_BY",
-      "relatedSpdxElement": "SPDXRef-port"
     }
   ],
   "packages": [
     {
       "name": "libiconv",
       "SPDXID": "SPDXRef-port",
-      "versionInfo": "1.17#5",
-      "downloadLocation": "NOASSERTION",
+      "versionInfo": "1.18",
+      "downloadLocation": "git+https://github.com/microsoft/vcpkg@e6b1ec6194b4adf7c08d114be8dcc848950094e1",
       "homepage": "https://www.gnu.org/software/libiconv/",
       "licenseConcluded": "NOASSERTION",
       "licenseDeclared": "NOASSERTION",
@@ -129,7 +109,7 @@
     {
       "name": "libiconv:x64-windows-static",
       "SPDXID": "SPDXRef-binary",
-      "versionInfo": "ce37607b0c81d90dcda6cd52053b7c0494f1d411bdfbc976a10db740b4252214",
+      "versionInfo": "a8ed609bf9eec8ab6aea35c0edbacf714c25f16040d4bd60dd3a35c4da18b54c",
       "downloadLocation": "NONE",
       "licenseConcluded": "NOASSERTION",
       "licenseDeclared": "NOASSERTION",
@@ -147,26 +127,26 @@
       "checksums": [
         {
           "algorithm": "SHA512",
-          "checksumValue": "18a09de2d026da4f2d8b858517b0f26d853b21179cf4fa9a41070b2d140030ad9525637dc4f34fc7f27abca8acdc84c6751dfb1d426e78bf92af4040603ced86"
+          "checksumValue": "a55eb3b7b785a78ab8918db8af541c9e11deb5ff4f89d54483287711ed797d87848ce0eafffa7ce26d9a7adb4b5a9891cb484f94bd4f51d3ce97a6a47b4c719a"
         }
       ]
     }
   ],
   "files": [
     {
-      "fileName": "./C:/Users/keith/source/repos/vcpkg/ports/libiconv/0002-Config-for-MSVC.patch",
+      "fileName": "./C:/Users/kal/AppData/Local/vcpkg/registries/git-trees/e6b1ec6194b4adf7c08d114be8dcc848950094e1/0002-Config-for-MSVC.patch",
       "SPDXID": "SPDXRef-file-0",
       "checksums": [
         {
           "algorithm": "SHA256",
-          "checksumValue": "7eb9dded5bc1e34a02d2bfa88f8c1cf1f454b3cf5e82d0d0c45cf7bf45a54c19"
+          "checksumValue": "f0efb5af1ca500aab48a6463cef3b2f30eb9c8c91dc7392ee8932473044ff779"
         }
       ],
       "licenseConcluded": "NOASSERTION",
       "copyrightText": "NOASSERTION"
     },
     {
-      "fileName": "./C:/Users/keith/source/repos/vcpkg/ports/libiconv/0003-Add-export.patch",
+      "fileName": "./C:/Users/kal/AppData/Local/vcpkg/registries/git-trees/e6b1ec6194b4adf7c08d114be8dcc848950094e1/0003-Add-export.patch",
       "SPDXID": "SPDXRef-file-1",
       "checksums": [
         {
@@ -178,56 +158,32 @@
       "copyrightText": "NOASSERTION"
     },
     {
-      "fileName": "./C:/Users/keith/source/repos/vcpkg/ports/libiconv/0004-ModuleFileName.patch",
+      "fileName": "./C:/Users/kal/AppData/Local/vcpkg/registries/git-trees/e6b1ec6194b4adf7c08d114be8dcc848950094e1/0004-ModuleFileName.patch",
       "SPDXID": "SPDXRef-file-2",
       "checksums": [
         {
           "algorithm": "SHA256",
-          "checksumValue": "5405e2493fa1846788e2bb2fd62334d2d98d2a5fa47a36a52047608472125d46"
+          "checksumValue": "514a0cd2ce138fb2c6d927d3f41d24c13c37023fcd88ce63dbf5760a6b9813b7"
         }
       ],
       "licenseConcluded": "NOASSERTION",
       "copyrightText": "NOASSERTION"
     },
     {
-      "fileName": "./C:/Users/keith/source/repos/vcpkg/ports/libiconv/0005-iOS-missing-symbol-fix.patch",
+      "fileName": "./C:/Users/kal/AppData/Local/vcpkg/registries/git-trees/e6b1ec6194b4adf7c08d114be8dcc848950094e1/portfile.cmake",
       "SPDXID": "SPDXRef-file-3",
       "checksums": [
         {
           "algorithm": "SHA256",
-          "checksumValue": "157901c22b9450ae1b08671a5fd20a83f92c4ac07eac8da7a7b082078d937214"
+          "checksumValue": "edfa60f3af87f6479640423c98e9725cfb97a9e02a3c78b03e09dce3e599267d"
         }
       ],
       "licenseConcluded": "NOASSERTION",
       "copyrightText": "NOASSERTION"
     },
     {
-      "fileName": "./C:/Users/keith/source/repos/vcpkg/ports/libiconv/clang-fortify.patch",
+      "fileName": "./C:/Users/kal/AppData/Local/vcpkg/registries/git-trees/e6b1ec6194b4adf7c08d114be8dcc848950094e1/usage",
       "SPDXID": "SPDXRef-file-4",
-      "checksums": [
-        {
-          "algorithm": "SHA256",
-          "checksumValue": "1e8bf046ffe3fe05d7b7485489a8aed80df5a084341c986a72b809aa91d9a500"
-        }
-      ],
-      "licenseConcluded": "NOASSERTION",
-      "copyrightText": "NOASSERTION"
-    },
-    {
-      "fileName": "./C:/Users/keith/source/repos/vcpkg/ports/libiconv/portfile.cmake",
-      "SPDXID": "SPDXRef-file-5",
-      "checksums": [
-        {
-          "algorithm": "SHA256",
-          "checksumValue": "9dac3d7fcd624463fddf79e502f391edf544195dd4735f06b75fb96752cb573f"
-        }
-      ],
-      "licenseConcluded": "NOASSERTION",
-      "copyrightText": "NOASSERTION"
-    },
-    {
-      "fileName": "./C:/Users/keith/source/repos/vcpkg/ports/libiconv/usage",
-      "SPDXID": "SPDXRef-file-6",
       "checksums": [
         {
           "algorithm": "SHA256",
@@ -238,8 +194,8 @@
       "copyrightText": "NOASSERTION"
     },
     {
-      "fileName": "./C:/Users/keith/source/repos/vcpkg/ports/libiconv/vcpkg-cmake-wrapper.cmake",
-      "SPDXID": "SPDXRef-file-7",
+      "fileName": "./C:/Users/kal/AppData/Local/vcpkg/registries/git-trees/e6b1ec6194b4adf7c08d114be8dcc848950094e1/vcpkg-cmake-wrapper.cmake",
+      "SPDXID": "SPDXRef-file-5",
       "checksums": [
         {
           "algorithm": "SHA256",
@@ -250,12 +206,12 @@
       "copyrightText": "NOASSERTION"
     },
     {
-      "fileName": "./C:/Users/keith/source/repos/vcpkg/ports/libiconv/vcpkg.json",
-      "SPDXID": "SPDXRef-file-8",
+      "fileName": "./C:/Users/kal/AppData/Local/vcpkg/registries/git-trees/e6b1ec6194b4adf7c08d114be8dcc848950094e1/vcpkg.json",
+      "SPDXID": "SPDXRef-file-6",
       "checksums": [
         {
           "algorithm": "SHA256",
-          "checksumValue": "ef1ff8ab801c27c5b06d95983d05bddf212a38c5a7829dbc004871b2d5d2b5c6"
+          "checksumValue": "3cf693f4207b7b9101892eb70714c16ae5d365948d3e5a407ba4c413a6fb59ac"
         }
       ],
       "licenseConcluded": "NOASSERTION",

@@ -1,10 +1,10 @@
 {
-  "name": "libxml",
-  "version": "0.0",
   "dependencies": [
     {
       "name": "libxml2",
-      "features": [ "http" ]
+      "features": [
+        "http"
+      ]
     }
   ]
 }

@@ -1,0 +1,13 @@
+{
+  "name": "libxml",
+  "version": "2.13.5",
+  "dependencies": [
+    {
+      "name": "libxml2",
+      "features": [
+        "http"
+      ]
+    }
+  ],
+  "builtin-baseline": "c9f425188cb179a6c954e9cd730c0cd3cb317512"
+}
